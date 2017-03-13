@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmi_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.siddhesh.bmicalculator.BmiResult">
+
+    <TextView
+        android:text="BMI Result"
+        android:textSize="30sp"
+        android:textColor="#0000ff"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/tvResult" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:text="Below 18.5 is Underweight"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:text="Between 18.5 to 25 is Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvNo" />
+
+    <TextView
+        android:text="Between 25 to 30 is Overweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:id="@+id/tvOv" />
+
+    <TextView
+        android:text="Above 30 is Obese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvOb" />
+
+    <Button
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShare"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

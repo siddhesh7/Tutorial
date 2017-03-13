@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/aboutUs"
+        android:title="About Us"
+        android:orderInCategory="100"/>
+
+
+    <item android:id="@+id/contactUs"
+                android:title="Contact Us"
+        android:orderInCategory="200"/>
+
+    <item android:id="@+id/callUs"
+                android:title="Call Us"
+        android:orderInCategory="300"/>
+
+    <item android:id="@+id/email"
+        android:title="Email"
+        android:orderInCategory="400"/>
+</menu>
+
